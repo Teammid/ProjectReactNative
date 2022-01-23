@@ -5,7 +5,7 @@ const Status = () => {
   const [text, Seachitem] = useState('');
   return (
     <SafeAreaView style={styles.background}>
-      <View>{<Text style={styles.heading}>Account</Text>}</View>
+      <View>{<Text style={styles.heading}>Status</Text>}</View>
       <View style={styles.container}>
         <Text></Text>
         <Text style={styles.text}>
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     borderWidth: 2,
     marginRight: 20,
-    borderRadius: 15,
+    borderRadius: 10,
     backgroundColor: '#FDFEFE',
   },
   text: {
